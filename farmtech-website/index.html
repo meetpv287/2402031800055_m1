@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FarmTech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>FarmTech</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>Modern Farming Instruments</h2>
+    <p>Advanced agricultural tools for smart farmers.</p>
+    <button onclick="showMessage()">Explore Products</button>
+  </div>
+</section>
+
+<section id="products">
+  <h2 class="title">Our Products</h2>
+
+  <div class="products">
+
+    <div class="card">
+      <div class="card-image">🚜</div>
+      <h3>Tractor</h3>
+      <p>Powerful tractor for farming.</p>
+      <span>₹5,50,000</span>
+    </div>
+
+    <div class="card">
+      <div class="card-image">🌾</div>
+      <h3>Seed Drill</h3>
+      <p>Easy seed planting machine.</p>
+      <span>₹75,000</span>
+    </div>
+
+    <div class="card">
+      <div class="card-image">💧</div>
+      <h3>Irrigation Sprayer</h3>
+      <p>Automatic irrigation sprayer.</p>
+      <span>₹15,000</span>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2 class="title">About Us</h2>
+  <p>
+    FarmTech provides smart farming equipment for modern agriculture.
+  </p>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="title">Contact Us</h2>
+
+  <input type="text" placeholder="Name">
+  <input type="email" placeholder="Email">
+  <textarea placeholder="Message"></textarea>
+
+  <button onclick="sendMessage()">Send</button>
+</section>
+
+<footer>
+  <p>© 2026 FarmTech</p>
+  <p>Son Of Faemer</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
